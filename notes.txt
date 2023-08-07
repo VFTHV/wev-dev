@@ -1,0 +1,4 @@
+- Download pics for small, medium and large screens
+- Download fonts
+- Variables: colors
+- 
