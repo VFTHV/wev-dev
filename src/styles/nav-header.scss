@@ -1,0 +1,16 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  height: 2.8rem;
+  .header-icon {
+    height: 100%;
+    svg {
+      height: 100%;
+      size: 10;
+    }
+  }
+}

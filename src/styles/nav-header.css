@@ -1,0 +1,15 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 2.8rem;
+}
+.header .header-icon {
+  height: 100%;
+}
+.header .header-icon svg {
+  height: 100%;
+  size: 10;
+}/*# sourceMappingURL=nav-header.css.map */

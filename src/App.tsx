@@ -1,28 +1,22 @@
 import {
-  Logo,
   JsxTag,
   NeuronIcon,
   ReactTech,
   TypeScripTech,
   NodeTech,
 } from './components/SVGs';
-import { Squash as Hamburger } from 'hamburger-react';
+
 import { HiOutlineCubeTransparent } from 'react-icons/hi';
 import { BsArrowDown } from 'react-icons/bs';
 import { GoGlobe } from 'react-icons/go';
 import { SiRedux } from 'react-icons/si';
+import './styles/home.css';
+import NavHeader from './components/NavHeader';
 
 function App() {
   return (
     <div className="container">
-      <header className="header">
-        <div className="logo">
-          <Logo />
-        </div>
-        <div className="hamburger">
-          <Hamburger color="rgb(9, 232, 94)" />
-        </div>
-      </header>
+      <NavHeader />
       <section className="home">
         <div className="hero-img">
           <img src="avatar.png" alt="web developer image" />
