@@ -22,24 +22,28 @@ function App() {
           <img src="avatar.png" alt="web developer image" />
         </div>
         <h1 className="h1">
-          I'm a wev developer based in Sugar Land, Tx, specializing in
+          I'm a web developer based in Sugar Land, Tx, specializing in
           React+Redux
         </h1>
-        <div className="cube">
-          <HiOutlineCubeTransparent />
+        <div className="scroll-down">
+          <p>Scroll Down</p>
+          <div className="down">
+            <BsArrowDown />
+          </div>
         </div>
-        <div className="globe">
-          <GoGlobe />
-        </div>
-        <div className="jsx-tag">
-          <JsxTag />
-        </div>
-        <div className="neuron">
-          <NeuronIcon />
-        </div>
-        <div className="scroll-down">Scroll Down</div>
-        <div className="down">
-          <BsArrowDown />
+        <div className="figures">
+          <div className="cube">
+            <HiOutlineCubeTransparent />
+          </div>
+          <div className="globe">
+            <GoGlobe />
+          </div>
+          <div className="jsx-tag">
+            <JsxTag />
+          </div>
+          <div className="neuron">
+            <NeuronIcon />
+          </div>
         </div>
       </section>
       <section className="technologies">
