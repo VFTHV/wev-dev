@@ -6,11 +6,19 @@
 }
 .home .hero-img {
   height: 10rem;
-  border-radius: 20rem;
-  border: 10px solid rgb(9, 232, 94);
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgb(9, 232, 94);
+  animation: pulse 2s infinite alternate;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0px rgb(9, 232, 94);
+  }
+  100% {
+    box-shadow: 0 0 20px rgb(9, 232, 94);
+  }
 }
 .home .hero-img img {
   border-radius: 20rem;
   height: 100%;
-  width: 100%;
 }/*# sourceMappingURL=home.css.map */
