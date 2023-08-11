@@ -1,17 +1,13 @@
-import {
-  JsxTag,
-  CubeIcon,
-  NeuronIcon,
-  ReactTech,
-  TypeScripTech,
-  NodeTech,
-} from './components/SVGs';
+import { ReactTech, TypeScripTech, NodeTech } from './components/SVGs';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 import { GoGlobe } from 'react-icons/go';
 import { SiRedux } from 'react-icons/si';
 import './styles/home.css';
 import NavHeader from './components/NavHeader';
 import { useScroll, useTransform, motion } from 'framer-motion';
+import { HiOutlineCubeTransparent } from 'react-icons/hi';
+import { DiJavascript } from 'react-icons/di';
+import { FaReact } from 'react-icons/fa';
 import { useRef } from 'react';
 
 console.log(GoGlobe);
@@ -27,7 +23,18 @@ function App() {
     target: targetRef,
     offset: ['end end', 'end start'],
   });
-  const fill = useTransform(scrollYProgress, [0, 1], ['red', 'white']);
+
+  const color = useTransform(
+    scrollYProgress,
+    [0, 0.25, 0.5, 0.75, 1],
+    [
+      'rgb(122, 137, 140)',
+      'rgb(86,129,110)',
+      'rgb(85,165,128)',
+      'rgb(60,189,122)',
+      'rgb(9, 232, 94)',
+    ]
+  );
 
   const y = useTransform(scrollYProgress, [0, 1], [-150, 0]);
   const globeY = useTransform(scrollYProgress, [0, 1], [0, 75]);
@@ -54,29 +61,33 @@ function App() {
           </div>
         </div>
         <motion.div ref={targetRef} className="figures">
-          <motion.div ref={cubeRef} style={{ y, color: fill }} className="icon">
-            <CubeIcon />
+          <motion.div
+            ref={cubeRef}
+            style={{ y, color: color }}
+            className="icon"
+          >
+            <HiOutlineCubeTransparent />
           </motion.div>
           <motion.div
             ref={globeRef}
-            style={{ y: globeY, color: fill }}
+            style={{ y: globeY, color: color }}
             className="icon"
           >
             <GoGlobe />
           </motion.div>
           <motion.div
             ref={jsxTagRef}
-            style={{ y: jsxTagY, color: fill }}
+            style={{ y: jsxTagY, color: color }}
             className="icon"
           >
-            <JsxTag />
+            <DiJavascript />
           </motion.div>
           <motion.div
             ref={neuronRef}
-            style={{ y: neuronY, color: fill }}
+            style={{ y: neuronY, color: color }}
             className="icon"
           >
-            <NeuronIcon />
+            <FaReact />
           </motion.div>
         </motion.div>
       </section>

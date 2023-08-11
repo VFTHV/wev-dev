@@ -1,6 +1,6 @@
 .home {
   height: 200vh;
-  border: 2px solid green;
+  // border: 2px solid green;
   .home-wrapper {
     padding-top: 3rem;
     display: flex;
@@ -10,7 +10,7 @@
     position: sticky;
     top: 0;
 
-    border: 2px solid red;
+    // border: 2px solid red;
 
     .hero-img {
       height: 10rem;
@@ -63,14 +63,13 @@
     }
   }
   .figures {
-    border: 2px solid blue;
+    // border: 2px solid blue;
     display: flex;
     justify-content: space-between;
 
     svg {
       height: 45px;
       width: 45px;
-      // fill: rgb(9, 232, 94);
     }
   }
 }

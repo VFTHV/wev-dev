@@ -1,6 +1,5 @@
 .home {
   height: 200vh;
-  border: 2px solid green;
 }
 .home .home-wrapper {
   padding-top: 3rem;
@@ -10,7 +9,6 @@
   text-align: center;
   position: sticky;
   top: 0;
-  border: 2px solid red;
 }
 .home .home-wrapper .hero-img {
   height: 10rem;
@@ -55,7 +53,6 @@
   animation: up-down 0.7s infinite alternate;
 }
 .home .figures {
-  border: 2px solid blue;
   display: flex;
   justify-content: space-between;
 }
