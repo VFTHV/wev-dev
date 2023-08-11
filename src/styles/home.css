@@ -1,12 +1,18 @@
 .home {
-  padding-block: 5rem;
+  height: 200vh;
+  border: 2px solid green;
+}
+.home .home-wrapper {
+  padding-top: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   text-align: center;
+  position: sticky;
+  top: 0;
+  border: 2px solid red;
 }
-.home .hero-img {
+.home .home-wrapper .hero-img {
   height: 10rem;
   border-radius: 50%;
   box-shadow: 0 0 20px rgb(9, 232, 94);
@@ -20,31 +26,40 @@
     box-shadow: 0 0 20px rgb(9, 232, 94);
   }
 }
-.home .hero-img img {
+.home .home-wrapper .hero-img img {
   border-radius: 20rem;
   height: 100%;
 }
-.home .h1 {
-  margin-block: 2rem;
+.home .home-wrapper .h1 {
+  margin-block: 1rem;
 }
-.home .scroll-down {
+.home .home-wrapper .scroll-down {
   color: #7a878d;
   font-size: 1rem;
 }
-.home .scroll-down .down {
+.home .home-wrapper .scroll-down .down {
   height: 5rem;
 }
 @keyframes up-down {
-  0%, 20% {
+  0%, 15% {
     transform: translateY(0);
   }
-  80%, 100% {
+  85%, 100% {
     transform: translateY(10px);
   }
 }
-.home .scroll-down .down svg {
+.home .home-wrapper .scroll-down .down svg {
   fill: rgb(9, 232, 94);
   height: 40px;
   width: 40px;
   animation: up-down 0.7s infinite alternate;
+}
+.home .figures {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+.home .figures svg {
+  height: 45px;
+  width: 45px;
 }/*# sourceMappingURL=home.css.map */

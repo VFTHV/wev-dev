@@ -9,7 +9,6 @@ function NavHeader() {
   const toggleMenu = () => {
     setIsOpen((prev) => !prev);
   };
-  console.log(isOpen);
 
   return (
     <header className="header">
