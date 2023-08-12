@@ -63,10 +63,10 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
           <Link
             onClick={() => setIsMenuOpen(false)}
             className="nav-item"
-            to="home"
+            to="techonologies"
             {...scrollProps}
           >
-            HOME
+            Tech Stack
           </Link>
         </li>
         <li>
@@ -76,7 +76,7 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
             to="about"
             {...scrollProps}
           >
-            ABOUT
+            Projects
           </Link>
         </li>
         <li>
@@ -86,7 +86,17 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
             to="services"
             {...scrollProps}
           >
-            SERVICES
+            FAQs
+          </Link>
+        </li>
+        <li>
+          <Link
+            onClick={() => setIsMenuOpen(false)}
+            className="nav-item cta"
+            to="contact"
+            {...scrollProps}
+          >
+            Get in touch
           </Link>
         </li>
       </ul>
