@@ -19,12 +19,21 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: relative;
 }
 .technologies .techs .tech span {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 .technologies .techs .tech svg {
   fill: rgb(9, 232, 94);
   min-height: 50px;
   min-width: 50px;
+}
+.technologies .techs .tech .filler {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(9, 232, 94);
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=techonoloiges.css.map */

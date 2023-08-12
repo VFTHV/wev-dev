@@ -3,6 +3,7 @@ import { SiRedux } from 'react-icons/si';
 import { SiExpress } from 'react-icons/si';
 import { BiLogoMongodb } from 'react-icons/bi';
 import '../styles/techonoloiges.css';
+import RevealHeight from './RevealHeight';
 
 function Techonologies() {
   return (
@@ -16,24 +17,24 @@ function Techonologies() {
         </p>
       </div>
       <div className="techs">
-        <div className="tech">
+        <RevealHeight>
           <ReactTech />
-        </div>
-        <div className="tech">
+        </RevealHeight>
+        <RevealHeight>
           <TypeScripTech />
-        </div>
-        <div className="tech">
-          <SiRedux /> Redux
-        </div>
-        <div className="tech">
+        </RevealHeight>
+        <RevealHeight span="Redux">
+          <SiRedux />
+        </RevealHeight>
+        <RevealHeight>
           <NodeTech />
-        </div>
-        <div className="tech">
-          <SiExpress /> <span>ExpressJS</span>
-        </div>
-        <div className="tech">
-          <BiLogoMongodb /> <span>MongoDB</span>
-        </div>
+        </RevealHeight>
+        <RevealHeight span="ExpressJS">
+          <SiExpress />
+        </RevealHeight>
+        <RevealHeight span="MongoDB">
+          <BiLogoMongodb />
+        </RevealHeight>
       </div>
     </section>
   );
