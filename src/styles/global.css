@@ -39,6 +39,11 @@ h6 {
   font-weight: 400;
 }
 
+.h2 {
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
 .container {
   padding-inline: 1.5rem;
 }/*# sourceMappingURL=global.css.map */

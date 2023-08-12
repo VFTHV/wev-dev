@@ -63,7 +63,8 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
           <Link
             onClick={() => setIsMenuOpen(false)}
             className="nav-item"
-            to="techonologies"
+            to="technologies"
+            offset={-61}
             {...scrollProps}
           >
             Tech Stack

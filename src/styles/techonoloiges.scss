@@ -1,0 +1,30 @@
+.technologies {
+  display: flex;
+  flex-direction: column;
+  .descr {
+    color: #7a878d;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  .techs {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    .tech {
+      color: rgb(9, 232, 94);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      span {
+        font-size: 1.4rem;
+      }
+      svg {
+        fill: rgb(9, 232, 94);
+        min-height: 50px;
+        min-width: 50px;
+      }
+    }
+  }
+}

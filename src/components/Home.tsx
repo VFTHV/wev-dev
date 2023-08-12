@@ -37,7 +37,7 @@ function Home() {
   const neuronY = useTransform(scrollYProgress, [0, 1], [-55, 25]);
 
   return (
-    <section className="home container">
+    <section id="home" className="home container">
       <div className="home-wrapper">
         <div className="hero-img">
           <img src="avatar.png" alt="web developer image" />
