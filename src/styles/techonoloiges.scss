@@ -1,11 +1,8 @@
 .technologies {
   display: flex;
   flex-direction: column;
-  .descr {
-    color: #7a878d;
-    font-size: 1rem;
-    line-height: 1.4;
-  }
+  margin-block: 3rem;
+
   .techs {
     display: grid;
     grid-template-columns: repeat(2, 2fr);

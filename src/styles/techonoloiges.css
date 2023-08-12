@@ -1,11 +1,7 @@
 .technologies {
   display: flex;
   flex-direction: column;
-}
-.technologies .descr {
-  color: #7a878d;
-  font-size: 1rem;
-  line-height: 1.4;
+  margin-block: 3rem;
 }
 .technologies .techs {
   display: grid;

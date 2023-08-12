@@ -74,7 +74,7 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
           <Link
             onClick={() => setIsMenuOpen(false)}
             className="nav-item"
-            to="about"
+            to="portfolio"
             {...scrollProps}
           >
             Projects

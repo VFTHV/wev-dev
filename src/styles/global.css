@@ -44,6 +44,17 @@ h6 {
   font-weight: 400;
 }
 
+.h3 {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
 .container {
   padding-inline: 1.5rem;
+}
+
+.descr {
+  color: #7a878d;
+  font-size: 1rem;
+  line-height: 1.4;
 }/*# sourceMappingURL=global.css.map */

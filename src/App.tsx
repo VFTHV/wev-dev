@@ -1,6 +1,7 @@
 import NavHeader from './components/NavHeader';
 import Home from './components/Home';
 import Techonologies from './components/Techonologies';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -8,10 +9,7 @@ function App() {
       <NavHeader />
       <Home />
       <Techonologies />
-      <section className="projects">
-        <h2 className="h2">Selected Projects</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </section>
+      <Portfolio />
     </>
   );
 }
