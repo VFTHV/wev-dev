@@ -2,19 +2,21 @@
   height: 200vh;
 }
 .home .home-wrapper {
-  padding-top: 3rem;
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 .home .home-wrapper .hero-img {
   height: 10rem;
   border-radius: 50%;
   box-shadow: 0 0 20px rgb(9, 232, 94);
   animation: pulse 2s infinite alternate;
+  z-index: 2;
 }
 @keyframes pulse {
   0% {

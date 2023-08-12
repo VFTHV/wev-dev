@@ -5,16 +5,20 @@
   height: 3.8rem;
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
   .header-icon {
-    // height: 100%;
     svg {
       height: 100%;
-      // size: 10;
     }
   }
+}
+.hamburger {
+  position: fixed;
+  top: 0.4rem;
+  right: 1.5rem;
+  z-index: 4;
 }
