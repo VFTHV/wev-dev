@@ -5,21 +5,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1rem;
 }
-.portfolio .portfolio-wrapper .project {
-  position: relative;
-}
-.portfolio .portfolio-wrapper .project .project-wrapper img {
+.portfolio .portfolio-wrapper .project-wrapper img {
   width: 100%;
 }
-.portfolio .portfolio-wrapper .project .project-wrapper .project-info {
+.portfolio .portfolio-wrapper .project-wrapper .project-info {
   margin: 1rem;
 }
-.portfolio .portfolio-wrapper .project .project-wrapper .project-info .tech-card-wrapper {
+.portfolio .portfolio-wrapper .project-wrapper .project-info .tech-card-wrapper {
   display: flex;
   margin-block: 0.5rem;
 }
-.portfolio .portfolio-wrapper .project .project-wrapper .project-info .tech-card-wrapper .tech-card {
+.portfolio .portfolio-wrapper .project-wrapper .project-info .tech-card-wrapper .tech-card {
   background-color: rgb(9, 232, 94);
   color: #1b1b1b;
   padding-inline: 0.4rem;
@@ -28,36 +26,6 @@
   margin-inline: 0.3rem;
   margin-bottom: 0.5rem;
 }
-.portfolio .portfolio-wrapper .project .project-wrapper .project-info .tech-card-wrapper .tech-card:first-child {
+.portfolio .portfolio-wrapper .project-wrapper .project-info .tech-card-wrapper .tech-card:first-child {
   margin-left: 0;
-}
-.portfolio .portfolio-wrapper .project .top-border-cover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-top: solid 2px rgb(9, 232, 94);
-  box-shadow: 0 0 5px rgb(9, 232, 94);
-}
-.portfolio .portfolio-wrapper .project .right-border-cover {
-  position: absolute;
-  top: 0;
-  right: 0;
-  border-right: solid 1px rgb(9, 232, 94);
-  box-shadow: 0 0 4px rgb(9, 232, 94);
-}
-.portfolio .portfolio-wrapper .project .left-border-cover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-left: solid 1px rgb(9, 232, 94);
-  box-shadow: 0 0 5px rgb(9, 232, 94);
-  height: 60%;
-}
-.portfolio .portfolio-wrapper .project .bottom-border-cover {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  border-bottom: solid 1px rgb(9, 232, 94);
-  box-shadow: 0 0 5px rgb(9, 232, 94);
-  width: 40%;
 }/*# sourceMappingURL=portfolio.css.map */

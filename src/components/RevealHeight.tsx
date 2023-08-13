@@ -16,7 +16,7 @@ export default function RevealHeight({ children, span }: RevealHeightProps) {
 
   const height = useTransform(
     scrollYProgress,
-    [0.05, 0.15, 0.25],
+    [0.05, 0.15, 0.35],
     ['100%', '50%', '3%']
   );
 
