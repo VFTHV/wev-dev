@@ -1,0 +1,21 @@
+.testimonials {
+  height: 200vh; // to be removed
+  .testimonial {
+    padding: 2rem 1.5rem;
+    color: #fefdfb;
+    svg {
+      fill: rgb(9, 232, 94);
+      height: 2.5rem;
+      width: 2.5rem;
+    }
+
+    .testimonial-img {
+      height: 5rem;
+      margin-block: 2rem;
+      img {
+        border-radius: 50%;
+        height: 100%;
+      }
+    }
+  }
+}

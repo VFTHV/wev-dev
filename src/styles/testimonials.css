@@ -1,0 +1,20 @@
+.testimonials {
+  height: 200vh;
+}
+.testimonials .testimonial {
+  padding: 2rem 1.5rem;
+  color: #fefdfb;
+}
+.testimonials .testimonial svg {
+  fill: rgb(9, 232, 94);
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.testimonials .testimonial .testimonial-img {
+  height: 5rem;
+  margin-block: 2rem;
+}
+.testimonials .testimonial .testimonial-img img {
+  border-radius: 50%;
+  height: 100%;
+}/*# sourceMappingURL=testimonials.css.map */
