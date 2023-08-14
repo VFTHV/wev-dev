@@ -1,23 +1,17 @@
 .portfolio {
-  height: 150vh;
+  margin-block: 4rem;
 }
-.portfolio .portfolio-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-}
-.portfolio .portfolio-wrapper .project-wrapper img {
+.portfolio .project-wrapper img {
   width: 100%;
 }
-.portfolio .portfolio-wrapper .project-wrapper .project-info {
+.portfolio .project-wrapper .project-info {
   margin: 1rem;
 }
-.portfolio .portfolio-wrapper .project-wrapper .project-info .tech-card-wrapper {
+.portfolio .project-wrapper .project-info .tech-card-wrapper {
   display: flex;
   margin-block: 0.5rem;
 }
-.portfolio .portfolio-wrapper .project-wrapper .project-info .tech-card-wrapper .tech-card {
+.portfolio .project-wrapper .project-info .tech-card-wrapper .tech-card {
   background-color: rgb(9, 232, 94);
   color: #1b1b1b;
   padding-inline: 0.4rem;
@@ -26,6 +20,6 @@
   margin-inline: 0.3rem;
   margin-bottom: 0.5rem;
 }
-.portfolio .portfolio-wrapper .project-wrapper .project-info .tech-card-wrapper .tech-card:first-child {
+.portfolio .project-wrapper .project-info .tech-card-wrapper .tech-card:first-child {
   margin-left: 0;
 }/*# sourceMappingURL=portfolio.css.map */

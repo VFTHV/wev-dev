@@ -9,7 +9,7 @@ function Portfolio() {
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
         laboriosam inventore doloremque minus
       </p>
-      <div className="portfolio-wrapper">
+      <div className="card-wrapper">
         <BorderWrapper>
           <div className="project-wrapper">
             <img src="portfolio.png" alt="Portfolio project image" />

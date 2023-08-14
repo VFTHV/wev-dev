@@ -18,8 +18,8 @@ function BorderWrapper({ children }: BorderWrapperProps) {
     offset: ['start end', 'start'],
   });
 
-  const width = useTransform(horizYProgress, [0, 0.65], ['0%', '100%']);
-  const height = useTransform(vertYProgress, [0, 0.65], ['0%', '100%']);
+  const width = useTransform(horizYProgress, [0, 0.8], ['0%', '100%']);
+  const height = useTransform(vertYProgress, [0, 0.8], ['0%', '100%']);
 
   return (
     <div style={{ position: 'relative' }}>
@@ -30,7 +30,7 @@ function BorderWrapper({ children }: BorderWrapperProps) {
           width,
           position: 'absolute',
           border: 'solid 1px rgb(9,232,94)',
-          boxShadow: '0 0 5px rgb(9,232,94)',
+          boxShadow: '0 0 5px 2px rgb(9,232,94)',
           top: 0,
           left: 0,
         }}
@@ -41,7 +41,7 @@ function BorderWrapper({ children }: BorderWrapperProps) {
           height,
           position: 'absolute',
           border: 'solid 1px rgb(9,232,94)',
-          boxShadow: '0 0 5px rgb(9,232,94)',
+          boxShadow: '0 0 5px 2px rgb(9,232,94)',
           top: 0,
           right: 0,
         }}
@@ -51,7 +51,7 @@ function BorderWrapper({ children }: BorderWrapperProps) {
           height,
           position: 'absolute',
           border: 'solid 1px rgb(9,232,94)',
-          boxShadow: '0 0 5px rgb(9,232,94)',
+          boxShadow: '0 0 5px 2px rgb(9,232,94)',
           top: 0,
           left: 0,
         }}
@@ -61,7 +61,7 @@ function BorderWrapper({ children }: BorderWrapperProps) {
           width,
           position: 'absolute',
           border: 'solid 1px rgb(9,232,94)',
-          boxShadow: '0 0 5px rgb(9,232,94)',
+          boxShadow: '0 0 5px 2px rgb(9,232,94)',
           bottom: 0,
           left: 0,
         }}
