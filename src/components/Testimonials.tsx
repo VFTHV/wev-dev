@@ -4,7 +4,7 @@ import '../styles/testimonials.css';
 
 function Testimonials() {
   return (
-    <section className="testimonials container">
+    <section id="testimonials" className="testimonials container">
       <h2 className="h2">Customer Testimonials</h2>
       <p className="descr">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt,

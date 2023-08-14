@@ -47,6 +47,7 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
     smooth: 'easeInOutQuint',
     duration: 1600,
   };
+  const offset = -4 * 16;
 
   return (
     <motion.nav
@@ -64,7 +65,7 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
             onClick={() => setIsMenuOpen(false)}
             className="nav-item"
             to="technologies"
-            offset={-61}
+            offset={offset}
             {...scrollProps}
           >
             Tech Stack
@@ -75,6 +76,7 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
             onClick={() => setIsMenuOpen(false)}
             className="nav-item"
             to="portfolio"
+            offset={offset}
             {...scrollProps}
           >
             Projects
@@ -84,7 +86,19 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
           <Link
             onClick={() => setIsMenuOpen(false)}
             className="nav-item"
-            to="services"
+            to="testimonials"
+            offset={offset}
+            {...scrollProps}
+          >
+            Testimonials
+          </Link>
+        </li>
+        <li>
+          <Link
+            onClick={() => setIsMenuOpen(false)}
+            className="nav-item"
+            to="faqs"
+            offset={offset}
             {...scrollProps}
           >
             FAQs
@@ -95,6 +109,7 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
             onClick={() => setIsMenuOpen(false)}
             className="nav-item cta"
             to="contact"
+            offset={offset}
             {...scrollProps}
           >
             Get in touch
