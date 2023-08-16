@@ -1,5 +1,5 @@
 import '../styles/portfolio.css';
-import BorderWrapper from './BorderWrapper';
+import Project from './Project';
 
 function Portfolio() {
   return (
@@ -10,57 +10,30 @@ function Portfolio() {
         laboriosam inventore doloremque minus
       </p>
       <div className="card-wrapper">
-        <BorderWrapper>
-          <div className="project-wrapper">
-            <img src="portfolio.png" alt="Portfolio project image" />
-            <div className="project-info">
-              <h3 className="h3">Ecommerce Website</h3>
-              <p className="descr">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae quos, magni nihil obcaecati nulla consequatur.
-              </p>
-              <div className="tech-card-wrapper">
-                <div className="tech-card">React</div>
-                <div className="tech-card">React</div>
-              </div>
-              <a href="#">View Project {'>'}</a>
-            </div>
-          </div>
-        </BorderWrapper>
-        <BorderWrapper>
-          <div className="project-wrapper">
-            <img src="portfolio.png" alt="Portfolio project image" />
-            <div className="project-info">
-              <h3 className="h3">Ecommerce Website</h3>
-              <p className="descr">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae quos, magni nihil obcaecati nulla consequatur.
-              </p>
-              <div className="tech-card-wrapper">
-                <div className="tech-card">React</div>
-                <div className="tech-card">React</div>
-              </div>
-              <a href="#">View Project {'>'}</a>
-            </div>
-          </div>
-        </BorderWrapper>
-        <BorderWrapper>
-          <div className="project-wrapper">
-            <img src="portfolio.png" alt="Portfolio project image" />
-            <div className="project-info">
-              <h3 className="h3">Ecommerce Website</h3>
-              <p className="descr">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Recusandae quos, magni nihil obcaecati nulla consequatur.
-              </p>
-              <div className="tech-card-wrapper">
-                <div className="tech-card">React</div>
-                <div className="tech-card">React</div>
-              </div>
-              <a href="#">View Project {'>'}</a>
-            </div>
-          </div>
-        </BorderWrapper>
+        <Project
+          href="#"
+          imgSrc="portfolio.png"
+          h3="Portfolio Website"
+          technologies={['TypeScript', 'NodeJS']}
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ea.
+        </Project>
+        <Project
+          href="#"
+          imgSrc="portfolio.png"
+          h3="Portfolio Website"
+          technologies={['TypeScript', 'NodeJS']}
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ea.
+        </Project>
+        <Project
+          href="#"
+          imgSrc="portfolio.png"
+          h3="Portfolio Website"
+          technologies={['TypeScript', 'NodeJS']}
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, ea.
+        </Project>
       </div>
     </section>
   );

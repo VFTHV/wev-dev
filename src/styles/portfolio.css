@@ -1,6 +1,9 @@
 .portfolio {
   margin-block: 4rem;
 }
+.portfolio .project-wrapper {
+  display: block;
+}
 .portfolio .project-wrapper img {
   width: 100%;
 }
@@ -22,4 +25,7 @@
 }
 .portfolio .project-wrapper .project-info .tech-card-wrapper .tech-card:first-child {
   margin-left: 0;
+}
+.portfolio .project-wrapper .project-info .view {
+  margin-bottom: 1.5rem;
 }/*# sourceMappingURL=portfolio.css.map */

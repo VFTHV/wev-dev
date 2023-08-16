@@ -1,6 +1,7 @@
 .portfolio {
   margin-block: 4rem;
   .project-wrapper {
+    display: block;
     img {
       width: 100%;
     }
@@ -24,6 +25,9 @@
             margin-left: 0;
           }
         }
+      }
+      .view {
+        margin-bottom: 1.5rem;
       }
     }
   }
