@@ -3,9 +3,10 @@ import { motion, useTransform, useScroll } from 'framer-motion';
 
 interface BorderWrapperProps {
   children: JSX.Element;
+  transformEnd?: number;
 }
 
-function BorderWrapper({ children }: BorderWrapperProps) {
+function BorderWrapper({ children, transformEnd }: BorderWrapperProps) {
   const horizBorderRef = useRef<HTMLDivElement>(null);
   const vertBorderRef = useRef<HTMLDivElement>(null);
 
@@ -18,8 +19,10 @@ function BorderWrapper({ children }: BorderWrapperProps) {
     offset: ['start end', 'start'],
   });
 
-  const width = useTransform(horizYProgress, [0, 0.8], ['0%', '100%']);
-  const height = useTransform(vertYProgress, [0, 0.8], ['0%', '100%']);
+  const end = transformEnd || 0.8;
+
+  const width = useTransform(horizYProgress, [0, end], ['0%', '100%']);
+  const height = useTransform(vertYProgress, [0, end], ['0%', '100%']);
 
   return (
     <div style={{ position: 'relative' }}>

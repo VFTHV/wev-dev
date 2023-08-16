@@ -13,7 +13,7 @@ function Form() {
         <label htmlFor="name" className="text">
           Name
         </label>
-        <BorderWrapper>
+        <BorderWrapper transformEnd={0.5}>
           <input
             id="name"
             type="text"
@@ -27,7 +27,7 @@ function Form() {
         <label htmlFor="email" className="text">
           Email
         </label>
-        <BorderWrapper>
+        <BorderWrapper transformEnd={0.5}>
           <input
             id="email"
             type="text"
@@ -41,7 +41,7 @@ function Form() {
         <label htmlFor="message" className="text">
           Message
         </label>
-        <BorderWrapper>
+        <BorderWrapper transformEnd={0.5}>
           <textarea
             id="message"
             name="message"
