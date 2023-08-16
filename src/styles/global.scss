@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
-
-$primary-color: #fefdfb;
-$cool-green: rgb(9, 232, 94);
-$background: #1b1b1b;
-
+@import 'variables';
 ul {
   list-style-type: none;
   padding: 0;
@@ -57,6 +53,11 @@ h6 {
 
 .descr {
   color: #7a878d;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.text {
   font-size: 1rem;
   line-height: 1.4;
 }

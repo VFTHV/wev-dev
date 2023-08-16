@@ -1,0 +1,23 @@
+.form {
+  height: 100vh;
+}
+.form .input-data {
+  margin-block: 1.5rem;
+}
+.form .input-data label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.form .input-data input,
+.form .input-data textarea {
+  width: 100%;
+  background-color: #1b1b1b;
+  padding: 0.8rem;
+  color: #fefdfb;
+  font-size: 1rem;
+}
+.form .cta-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}/*# sourceMappingURL=form.css.map */

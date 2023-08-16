@@ -1,0 +1,25 @@
+@import 'variables';
+
+.form {
+  height: 100vh;
+  .input-data {
+    margin-block: 1.5rem;
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    input,
+    textarea {
+      width: 100%;
+      background-color: $background;
+      padding: 0.8rem;
+      color: $primary-color;
+      font-size: $txt-font-size;
+    }
+  }
+  .cta-btn {
+    padding: 0.5rem 1rem;
+    font-size: $txt-font-size;
+    border-radius: 5px;
+  }
+}

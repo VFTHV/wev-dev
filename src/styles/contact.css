@@ -5,6 +5,7 @@
 .contact .contact-detail {
   display: flex;
   align-items: center;
+  margin-block: 0.8rem;
 }
 .contact .contact-detail .contact-icon {
   color: #7a878d;

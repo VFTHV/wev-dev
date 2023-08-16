@@ -1,10 +1,11 @@
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsTelephone } from 'react-icons/bs';
+import Form from './Form';
 import '../styles/contact.css';
 
 function Contact() {
   return (
-    <section className="contact container">
+    <section id="contact" className="contact container">
       <div>
         <h2 className="h2">Get in Touch</h2>
         <p className="descr">
@@ -15,7 +16,7 @@ function Contact() {
           <div className="contact-icon">
             <AiOutlineMail />
           </div>
-          <a className="descr light" href="mailto:someone@example.com">
+          <a className="text" href="mailto:someone@example.com">
             vfthv@vfthv.com
           </a>
         </div>
@@ -23,11 +24,12 @@ function Contact() {
           <div className="contact-icon">
             <BsTelephone />
           </div>
-          <a className="descr light" href="tel:+13172039800">
+          <a className="text" href="tel:+13172039800">
             +1 (234) 5678910
           </a>
         </div>
       </div>
+      <Form />
     </section>
   );
 }
