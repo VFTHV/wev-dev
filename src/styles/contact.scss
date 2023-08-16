@@ -1,0 +1,14 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+
+  .contact-detail {
+    display: flex;
+    align-items: center;
+    .contact-icon {
+      color: #7a878d;
+      font-size: 1.8rem;
+      margin-right: 1rem;
+    }
+  }
+}
