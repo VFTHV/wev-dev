@@ -1,4 +1,4 @@
-import { YnVDevLogo } from './SVGs';
+import { YnVDevLogo } from './YnVDevLogo';
 import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 
 import '../styles/footer.css';
@@ -6,7 +6,7 @@ import '../styles/footer.css';
 function Footer() {
   return (
     <footer className="footer container">
-      <YnVDevLogo height={26} className="footer-logo" />
+      <YnVDevLogo />
       <div className="icons-wrapper">
         <a href="#" className="icon">
           <BsGithub />

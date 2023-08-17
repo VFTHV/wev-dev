@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { useState } from 'react';
-import { YnVDevLogo } from './SVGs';
+import { YnVDevLogo } from './YnVDevLogo';
 import { Squash as Hamburger } from 'hamburger-react';
 import '../styles/nav-header.css';
 import SideMenu from './SideMenu';
@@ -16,7 +16,7 @@ function NavHeader() {
   return (
     <>
       <header className="header container">
-        <YnVDevLogo height={26} />
+        <YnVDevLogo />
       </header>
       <div className="hamburger" ref={menuRef}>
         <Hamburger
