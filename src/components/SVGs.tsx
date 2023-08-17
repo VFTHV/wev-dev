@@ -1,12 +1,23 @@
-export const YnVDevLogo = ({ height }: { height: string }) => {
+export const YnVDevLogo = ({
+  height,
+  className,
+}: {
+  height: number;
+  className?: string;
+}) => {
   return (
-    <div style={{ display: 'flex', height: `${height}px` }}>
+    <div
+      style={{
+        height: `${height}px`,
+      }}
+      className={className}
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="163.421mm"
         height="75.1482mm"
         viewBox="0 0 772 355"
-        style={{ height: '100%', width: 'min-content' }}
+        style={{ display: 'inline', height: '100%', width: 'min-content' }}
       >
         <path
           id="Selection"
@@ -99,7 +110,7 @@ export const YnVDevLogo = ({ height }: { height: string }) => {
         width="160.246mm"
         height="74.5131mm"
         viewBox="0 0 757 352"
-        style={{ height: '100%', width: 'min-content' }}
+        style={{ display: 'inline', height: '100%', width: 'min-content' }}
       >
         <path
           id="Selection"

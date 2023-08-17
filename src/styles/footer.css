@@ -1,0 +1,14 @@
+.footer {
+  text-align: center;
+}
+.footer .icons-wrapper {
+  margin: 1rem auto;
+  font-size: 30px;
+  color: #7a878d;
+}
+.footer .icons-wrapper .icon {
+  margin-inline: 0.5rem;
+}
+.footer hr {
+  border: 1px solid #7a878d;
+}/*# sourceMappingURL=footer.css.map */

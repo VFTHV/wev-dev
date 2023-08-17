@@ -16,7 +16,7 @@ function NavHeader() {
   return (
     <>
       <header className="header container">
-        <YnVDevLogo height={30} />
+        <YnVDevLogo height={26} />
       </header>
       <div className="hamburger" ref={menuRef}>
         <Hamburger

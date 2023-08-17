@@ -1,6 +1,7 @@
 .contact {
   display: flex;
   flex-direction: column;
+  margin-block: 4rem;
 }
 .contact .contact-detail {
   display: flex;
