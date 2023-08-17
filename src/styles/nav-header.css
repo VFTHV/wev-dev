@@ -10,9 +10,6 @@
   justify-content: space-between;
   align-items: center;
 }
-.header .header-icon svg {
-  height: 100%;
-}
 
 .hamburger {
   position: fixed;
