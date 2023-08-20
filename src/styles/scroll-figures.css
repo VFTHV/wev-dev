@@ -1,0 +1,8 @@
+.figures {
+  display: flex;
+  justify-content: space-between;
+}
+.figures svg {
+  height: 45px;
+  width: 45px;
+}/*# sourceMappingURL=scroll-figures.css.map */

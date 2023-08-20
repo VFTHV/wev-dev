@@ -54,12 +54,4 @@
   height: 40px;
   width: 40px;
   animation: up-down 0.7s infinite alternate;
-}
-.home .figures {
-  display: flex;
-  justify-content: space-between;
-}
-.home .figures svg {
-  height: 45px;
-  width: 45px;
 }/*# sourceMappingURL=home.css.map */

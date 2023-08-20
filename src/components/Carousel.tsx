@@ -17,7 +17,6 @@ function Carousel() {
   useEffect(() => {
     if (carousel.current) {
       const { offsetWidth, scrollWidth } = carousel.current;
-      console.log(offsetWidth, scrollWidth);
       const newWidth = offsetWidth - scrollWidth;
       setWidth(newWidth);
     }
@@ -28,7 +27,11 @@ function Carousel() {
     offset: ['start end', 'start'],
   });
 
-  const x = useTransform(scrollYProgress, [0, 0.25, 1], [0, 0, width]);
+  useEffect(() => {
+    console.log(scrollYProgress);
+  }, [scrollYProgress]);
+
+  const x = useTransform(scrollYProgress, [0, 0.25, 0.9], [0, 0, width]);
 
   return (
     <motion.div ref={carousel} className="carousel">
