@@ -53,7 +53,7 @@ function Home() {
             <AiOutlineArrowDown />
           </div>
         </div>
-
+        <h3 className="descr">Trusted by</h3>
         <Carousel />
       </div>
       <motion.div ref={targetRef} className="figures">

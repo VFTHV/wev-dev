@@ -1,9 +1,16 @@
-import { motion } from 'framer-motion';
+import { motion, useTransform, useScroll } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
+import { AHWSicon, BHicon, KLXicon, GinnovoIcon, TGTicon } from './SVGs';
 import '../styles/carousel.css';
 
 function Carousel() {
-  const images = ['/bh2.png', '/tgt.png', 'ginnovo.png', 'ahws.png', 'klx.png'];
+  const icons = [
+    <AHWSicon />,
+    <BHicon />,
+    <KLXicon />,
+    <GinnovoIcon />,
+    <TGTicon />,
+  ];
   const [width, setWidth] = useState(0);
   const carousel = useRef(null);
 
@@ -16,17 +23,25 @@ function Carousel() {
     }
   }, []);
 
+  const { scrollYProgress } = useScroll({
+    target: carousel,
+    offset: ['start end', 'start'],
+  });
+
+  const x = useTransform(scrollYProgress, [0, 0.25, 1], [0, 0, width]);
+
   return (
     <motion.div ref={carousel} className="carousel">
       <motion.div
         drag="x"
         dragConstraints={{ right: 0, left: width }}
         className="inner-carousel"
+        style={{ x }}
       >
-        {images.map((image, index) => {
+        {icons.map((icon, index) => {
           return (
             <motion.div className="item" key={index}>
-              <img src={image} alt="partners image" />
+              {icon}
             </motion.div>
           );
         })}
