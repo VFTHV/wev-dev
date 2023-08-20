@@ -1,22 +1,18 @@
+.carousel {
+  cursor: grab;
+  width: 100%;
+  overflow: hidden;
+  background-color: pink;
+}
+.carousel .inner-carousel {
+  background-color: lightblue;
+  display: flex;
+}
 .carousel .inner-carousel .item {
-  height: 100px;
-  width: 100px;
+  height: 6rem;
+  padding: 1rem;
 }
-.carousel .inner-carousel .img1 {
-  background-color: yellow;
-}
-.carousel .inner-carousel .img2 {
-  background-color: red;
-}
-.carousel .inner-carousel .img3 {
-  background-color: orange;
-}
-.carousel .inner-carousel .img4 {
-  background-color: green;
-}
-.carousel .inner-carousel .img5 {
-  background-color: purple;
-}
-.carousel .inner-carousel .img6 {
-  background-color: white;
+.carousel .inner-carousel .item img {
+  height: 100%;
+  pointer-events: none;
 }/*# sourceMappingURL=carousel.css.map */

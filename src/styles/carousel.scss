@@ -1,26 +1,23 @@
+@import 'variables.scss';
 .carousel {
+  cursor: grab;
+  width: 100%;
+  overflow: hidden;
+  background-color: pink;
+
   .inner-carousel {
+    background-color: lightblue;
+    display: flex;
+
     .item {
-      height: 100px;
-      width: 100px;
-    }
-    .img1 {
-      background-color: yellow;
-    }
-    .img2 {
-      background-color: red;
-    }
-    .img3 {
-      background-color: orange;
-    }
-    .img4 {
-      background-color: green;
-    }
-    .img5 {
-      background-color: purple;
-    }
-    .img6 {
-      background-color: white;
+      height: 6rem;
+      padding: 1rem;
+      // background-color: $primary-color;
+
+      img {
+        height: 100%;
+        pointer-events: none;
+      }
     }
   }
 }
