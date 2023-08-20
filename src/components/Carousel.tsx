@@ -1,17 +1,20 @@
 import { motion } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
+import images from '../assets/images';
 import '../styles/carousel.css';
 
 function Carousel() {
+  console.log(images);
   return (
     <motion.div className="carousel">
       <motion.div className="inner-carousel">
-        <motion.div className="item img1"></motion.div>
-        <motion.div className="item img2"></motion.div>
-        <motion.div className="item img3"></motion.div>
-        <motion.div className="item img4"></motion.div>
-        <motion.div className="item img5"></motion.div>
-        <motion.div className="item img6"></motion.div>
+        {images.map((image) => {
+          return (
+            <motion.div>
+              <img src={image} alt="" />
+            </motion.div>
+          );
+        })}
       </motion.div>
     </motion.div>
   );
