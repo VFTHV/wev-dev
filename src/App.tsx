@@ -1,11 +1,11 @@
-import NavHeader from './components/NavHeader';
-import Home from './components/Home';
-import Techonologies from './components/Techonologies';
-import Portfolio from './components/Portfolio';
-import Testimonials from './components/Testimonials';
-import FAQs from './components/FAQs';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import NavHeader from './components/nav-header/NavHeader';
+import Home from './components/home/Home';
+import Techonologies from './components/technologies/Techonologies';
+import Portfolio from './components/portfolio/Portfolio';
+import Testimonials from './components/testimonials/Testimonials';
+import FAQs from './components/faqs/FAQs';
+import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (

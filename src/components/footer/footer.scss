@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.footer {
+  text-align: center;
+  .icons-wrapper {
+    margin: 1rem auto;
+    font-size: 30px;
+    color: $gray;
+
+    .icon {
+      margin-inline: 0.5rem;
+    }
+  }
+  hr {
+    border: 1px solid $gray;
+  }
+}

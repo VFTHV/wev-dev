@@ -1,0 +1,24 @@
+@import '../../../styles/variables.scss';
+
+.form {
+  .input-data {
+    margin-block: 1.5rem;
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    input,
+    textarea {
+      width: 100%;
+      background-color: $background;
+      padding: 0.8rem;
+      color: $primary-color;
+      font-size: $txt-font-size;
+    }
+  }
+  .cta-btn {
+    padding: 0.7rem 1.1rem;
+    font-size: $txt-font-size;
+    border-radius: 6px;
+  }
+}

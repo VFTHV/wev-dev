@@ -1,0 +1,33 @@
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1.5rem;
+  padding-right: 0.5rem;
+  position: relative;
+}
+.question .q-text {
+  width: 80%;
+}
+.question .border-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: solid 1px rgb(9, 232, 94);
+  box-shadow: 0 0 5px 1px rgb(9, 232, 94);
+}
+.question .arrow-wrapper {
+  display: flex;
+}
+.question .arrow-wrapper svg {
+  fill: #7a878d;
+  height: 20px;
+  width: 20px;
+}
+
+.answer-wrapper .answer {
+  overflow: hidden;
+}
+.answer-wrapper .answer > * {
+  margin: 0;
+} /*# sourceMappingURL=faq.css.map */
