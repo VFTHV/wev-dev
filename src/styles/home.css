@@ -1,5 +1,6 @@
 .home {
-  height: 200vh;
+  height: 300vh;
+  border: solid 1px red;
 }
 .home .home-wrapper {
   padding-top: 4rem;
@@ -39,6 +40,7 @@
 }
 .home .home-wrapper .scroll-down .down {
   height: 3rem;
+  color: rgb(9, 232, 94);
 }
 @keyframes up-down {
   0%, 15% {

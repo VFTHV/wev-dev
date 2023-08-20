@@ -1,5 +1,7 @@
+@import 'variables.scss';
 .home {
-  height: 200vh;
+  height: 300vh;
+  border: solid 1px red;
 
   .home-wrapper {
     padding-top: 4rem;
@@ -37,10 +39,11 @@
     }
 
     .scroll-down {
-      color: #7a878d;
+      color: $gray;
       font-size: 1rem;
       .down {
         height: 3rem;
+        color: $cool-green;
 
         @keyframes up-down {
           0%,

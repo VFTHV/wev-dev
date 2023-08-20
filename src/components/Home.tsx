@@ -6,6 +6,7 @@ import { TbBrandRedux } from 'react-icons/tb';
 import { TbBrandTypescript } from 'react-icons/tb';
 import { AiOutlineArrowDown } from 'react-icons/ai';
 import '../styles/home.css';
+import Carousel from './Carousel';
 
 function Home() {
   const cubeRef = useRef<HTMLDivElement>(null);
@@ -52,6 +53,8 @@ function Home() {
             <AiOutlineArrowDown />
           </div>
         </div>
+
+        <Carousel />
       </div>
       <motion.div ref={targetRef} className="figures">
         <motion.div ref={cubeRef} style={{ y, color: color }} className="icon">
