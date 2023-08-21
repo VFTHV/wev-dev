@@ -14,6 +14,11 @@
       padding: 0.8rem;
       color: $primary-color;
       font-size: $txt-font-size;
+      transition: background-color 0.3s ease-in-out;
+
+      &:focus {
+        background-color: rgba($color: $cool-green, $alpha: 0.15);
+      }
     }
   }
   .cta-btn {

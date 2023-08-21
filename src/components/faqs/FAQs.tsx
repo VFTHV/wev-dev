@@ -8,9 +8,8 @@ function FAQs() {
     <section className="faqs container">
       <h2 className="h2">FAQs</h2>
       <p className="descr">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni cum,
-        nobis reprehenderit a aspernatur dolores eveniet quis eligendi?
-        Praesentium, enim?
+        Got Questions? Here are Answers to Common Inquiries About My Web
+        Development Expertise.
       </p>
       {faqs.map((faq) => {
         const { question, answer } = faq;

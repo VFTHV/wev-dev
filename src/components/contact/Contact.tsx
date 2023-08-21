@@ -16,16 +16,16 @@ function Contact() {
           <div className="contact-icon">
             <AiOutlineMail />
           </div>
-          <a className="text" href="mailto:someone@example.com">
-            vfthv@vfthv.com
+          <a className="text" href="mailto:vadfthv@gmail.com">
+            vadfthv@gmail.com
           </a>
         </div>
         <div className="contact-detail">
           <div className="contact-icon">
             <BsTelephone />
           </div>
-          <a className="text" href="tel:+13172039800">
-            +1 (234) 5678910
+          <a className="text" href="tel:+14782541272">
+            +1 (478) 254-1272
           </a>
         </div>
       </div>

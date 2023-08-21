@@ -12,6 +12,11 @@
   padding: 0.8rem;
   color: #fefdfb;
   font-size: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+.form .input-data input:focus,
+.form .input-data textarea:focus {
+  background-color: rgba(9, 232, 94, 0.15);
 }
 .form .cta-btn {
   padding: 0.7rem 1.1rem;
