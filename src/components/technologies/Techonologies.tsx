@@ -11,9 +11,11 @@ function Techonologies() {
       <div className="tech-wrapper">
         <h2 className="h2">Technologies I work with</h2>
         <p className="descr">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-          provident esse distinctio, est minima quidem dolor laboriosam maxime
-          reprehenderit autem.
+          Leveraging the power of React, Redux, and TypeScript, I engineer
+          modern web solutions.
+          <br />I am on my way to mastering the art of building efficient
+          backends for dynamic and scalable applications with Node, Express, and
+          MongoDB
         </p>
       </div>
       <div className="techs">

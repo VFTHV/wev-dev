@@ -8,7 +8,7 @@ function Home() {
     <section id="home" className="home container">
       <div className="home-wrapper">
         <div className="hero-img">
-          <img src="avatar.png" alt="web developer image" />
+          <img src="avatar.jpeg" alt="web developer image" />
         </div>
         <h1 className="h1">
           I'm a web developer based in Sugar Land, Tx, specializing in
