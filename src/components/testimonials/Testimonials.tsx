@@ -15,30 +15,37 @@ function Testimonials() {
           <div className="testimonial">
             <BsLinkedin />
             <p className="descr light">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-              modi pariatur culpa impedit iusto assumenda in vero consequatur
-              quo doloribus.
+              I've had an opportunity to work with Vadim on the one of web
+              applications for oil and gas industry. He has a great knowledge of
+              technical aspects combined with programming skills in JavaScript
+              and ReactJS. I would highly recommend Vadim to any progressive
+              software company or any modern-tech company.
             </p>
             <div className="testimonial-img">
-              <img src="customer.png" alt="testimonial customer image" />
+              <img src="testimonial.jpg" alt="testimonial customer image" />
             </div>
-            <div className="descr light">Elliot John</div>
-            <div className="descr">Marketing Executive</div>
+            <div className="descr light">Andrey Semeyko</div>
+            <div className="descr">
+              General Manager at Abilon Software LLC, Oil & Gas, MBA
+            </div>
           </div>
         </BorderWrapper>
         <BorderWrapper>
           <div className="testimonial">
             <BsLinkedin />
             <p className="descr light">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-              modi pariatur culpa impedit iusto assumenda in vero consequatur
-              quo doloribus.
+              I have been mentoring Vadim for about five months. I saw how he
+              developed his skills by grinding the subject and deepened his
+              knowledge by asking sophisticated questions. Vadim is a very
+              proactive, result-oriented and diligent person. He is always
+              willing to put all his energy and time into getting his knowledge
+              to the next level.
             </p>
             <div className="testimonial-img">
-              <img src="customer.png" alt="testimonial customer image" />
+              <img src="testimonial2.jpg" alt="testimonial customer image" />
             </div>
-            <div className="descr light">Elliot John</div>
-            <div className="descr">Marketing Executive</div>
+            <div className="descr light">Yurii Husak</div>
+            <div className="descr">Front-end Developer</div>
           </div>
         </BorderWrapper>
       </div>
