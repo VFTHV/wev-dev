@@ -1,5 +1,7 @@
 import './faqs.css';
 import FAQ from './faq/FAQ';
+import { faqs } from '../../assets/faqs';
+import { nanoid } from 'nanoid';
 
 function FAQs() {
   return (
@@ -10,24 +12,14 @@ function FAQs() {
         nobis reprehenderit a aspernatur dolores eveniet quis eligendi?
         Praesentium, enim?
       </p>
-      <FAQ questionText="What techonology stack do you use?">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet esse
-          nisi quasi ullam, sed ipsa dolorem eaque voluptatibus cum quibusdam?
-        </p>
-      </FAQ>
-      <FAQ questionText="What is your experience level?">
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint error
-          totam autem rerum tempora!
-        </p>
-      </FAQ>
-      <FAQ questionText="What is your pricing?">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium,
-          pariatur.
-        </p>
-      </FAQ>
+      {faqs.map((faq) => {
+        const { question, answer } = faq;
+        return (
+          <FAQ key={nanoid()} questionText={question}>
+            <p>{answer}</p>
+          </FAQ>
+        );
+      })}
     </section>
   );
 }

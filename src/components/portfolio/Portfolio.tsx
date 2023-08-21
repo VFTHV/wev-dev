@@ -8,7 +8,7 @@ function Portfolio() {
     <section id="portfolio" className="portfolio container">
       <h2 className="h2">Some of my Projects</h2>
       <p className="descr">
-        You are welcom to browse through a selection of my projects, reflecting
+        You are welcome to browse through a selection of my projects, reflecting
         my skills and expertise
       </p>
       <div className="card-wrapper">
