@@ -27,7 +27,7 @@ function Carousel() {
     offset: ['start end', 'start'],
   });
 
-  const x = useTransform(scrollYProgress, [0, 0.25, 0.9], [0, 0, width]);
+  const x = useTransform(scrollYProgress, [0.1, 0.9], [0, width]);
 
   return (
     <motion.div ref={carousel} className="carousel">

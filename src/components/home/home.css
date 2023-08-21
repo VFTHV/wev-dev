@@ -1,5 +1,6 @@
 .home {
-  height: 200vh;
+  height: 250vh;
+  margin-bottom: 5rem;
 }
 .home .home-wrapper {
   padding-top: 4rem;
