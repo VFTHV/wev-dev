@@ -1,6 +1,8 @@
 import { useState, useRef, useEffect, Dispatch, MutableRefObject } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
+import { sideMenu } from '../../../assets/side-menu';
+import { nanoid } from 'nanoid';
 import './side-menu.css';
 
 interface SideMenuProps {
@@ -60,61 +62,22 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
       ref={navRef}
     >
       <ul className="nav-items">
-        <li>
-          <Link
-            onClick={() => setIsMenuOpen(false)}
-            className="nav-item"
-            to="technologies"
-            offset={offset}
-            {...scrollProps}
-          >
-            Tech Stack
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={() => setIsMenuOpen(false)}
-            className="nav-item"
-            to="portfolio"
-            offset={offset}
-            {...scrollProps}
-          >
-            Projects
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={() => setIsMenuOpen(false)}
-            className="nav-item"
-            to="testimonials"
-            offset={offset}
-            {...scrollProps}
-          >
-            Testimonials
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={() => setIsMenuOpen(false)}
-            className="nav-item"
-            to="faqs"
-            offset={offset}
-            {...scrollProps}
-          >
-            FAQs
-          </Link>
-        </li>
-        <li>
-          <Link
-            onClick={() => setIsMenuOpen(false)}
-            className="nav-item cta"
-            to="contact"
-            offset={offset}
-            {...scrollProps}
-          >
-            Get in touch
-          </Link>
-        </li>
+        {sideMenu.map((item) => {
+          const { to, content } = item;
+          return (
+            <li key={nanoid()}>
+              <Link
+                onClick={() => setIsMenuOpen(false)}
+                className="nav-item"
+                to={to}
+                offset={offset}
+                {...scrollProps}
+              >
+                {content}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
     </motion.nav>
   );
