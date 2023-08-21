@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect, Dispatch, MutableRefObject } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
-import { sideMenu } from '../../../assets/side-menu';
+import { sideMenu } from '../../../assets/sideMenu';
 import { nanoid } from 'nanoid';
 import './side-menu.css';
 
