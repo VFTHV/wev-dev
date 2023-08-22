@@ -3,6 +3,7 @@
 .form {
   .input-data {
     margin-block: 1.5rem;
+
     label {
       display: block;
       margin-bottom: 0.5rem;
@@ -26,5 +27,11 @@
     font-size: $txt-font-size;
     border-radius: 6px;
     color: $background;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .form .input-data:first-child {
+    margin-top: 0;
   }
 }

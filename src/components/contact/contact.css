@@ -12,4 +12,14 @@
   color: #7a878d;
   font-size: 1.8rem;
   margin-right: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .contact {
+    flex-direction: row;
+    gap: 3rem;
+  }
+  .contact > * {
+    flex: 1;
+  }
 }/*# sourceMappingURL=contact.css.map */
