@@ -27,8 +27,9 @@ export default function RevealHeight({ children }: RevealHeightProps) {
         color: 'rgb(9, 232, 94)',
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'space-around',
+        justifyContent: 'center',
         position: 'relative',
+        maxHeight: '3rem',
       }}
     >
       {children}

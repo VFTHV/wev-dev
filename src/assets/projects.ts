@@ -62,6 +62,6 @@ export const projects: Projects[] = [
     h3: 'Cards Game "Clubs Fool',
     technologies: ['HTML', 'Vanilla JS', 'Bootstrap'],
     description:
-      'This is an imitation of a 3-player card game Based on Classic Russian-Ukrainian card game, this game was designed in raw JavaScript code (no libraries). It manipulated DOM elements to output the app onto an HTML canvas element. Relied on both event handling and the use of objects',
+      'Russian-Ukrainian card game. Designed in raw JavaScript code (no libraries). It manipulates DOM and relies on both event handling and the use of objects',
   },
 ];

@@ -2,6 +2,7 @@
 
 .project-wrapper {
   display: block;
+
   img {
     width: 100%;
   }
@@ -28,6 +29,28 @@
     }
     .view {
       margin-bottom: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .project-wrapper {
+    max-width: 21.5rem;
+    height: 36rem;
+    .proj-item {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .project-info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        .view {
+          margin-top: auto;
+        }
+      }
     }
   }
 }

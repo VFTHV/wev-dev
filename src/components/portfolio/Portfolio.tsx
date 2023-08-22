@@ -1,4 +1,3 @@
-import { Fragment } from 'react';
 import './portfolio.css';
 import Project from './project/Project';
 import { projects } from '../../assets/projects';
@@ -15,16 +14,15 @@ function Portfolio() {
         {projects.map((proj, i) => {
           const { href, imgSrc, h3, technologies, description } = proj;
           return (
-            <Fragment key={i}>
-              <Project
-                href={href}
-                imgSrc={imgSrc}
-                h3={h3}
-                technologies={technologies}
-              >
-                {description}
-              </Project>
-            </Fragment>
+            <Project
+              key={i}
+              href={href}
+              imgSrc={imgSrc}
+              h3={h3}
+              technologies={technologies}
+            >
+              {description}
+            </Project>
           );
         })}
       </div>

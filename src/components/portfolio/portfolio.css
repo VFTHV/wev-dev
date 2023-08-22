@@ -1,3 +1,13 @@
 .portfolio {
   margin-block: 4rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .portfolio .card-wrapper {
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }/*# sourceMappingURL=portfolio.css.map */
