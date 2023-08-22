@@ -42,4 +42,10 @@
   .technologies > * {
     flex: 1;
   }
+  .technologies .techs .tech .redux {
+    font-size: 2.2rem;
+  }
+  .technologies .techs .tech .mongo-db {
+    font-size: 1.3rem;
+  }
 }/*# sourceMappingURL=techonoloiges.css.map */

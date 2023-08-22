@@ -42,5 +42,15 @@
     & > * {
       flex: 1;
     }
+    .techs {
+      .tech {
+        .redux {
+          font-size: 2.2rem;
+        }
+        .mongo-db {
+          font-size: 1.3rem;
+        }
+      }
+    }
   }
 }
