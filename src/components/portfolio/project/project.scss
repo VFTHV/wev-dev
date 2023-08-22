@@ -1,0 +1,33 @@
+@import '../../../styles/variables.scss';
+
+.project-wrapper {
+  display: block;
+  img {
+    width: 100%;
+  }
+  .project-info {
+    margin: 1rem;
+
+    .tech-card-wrapper {
+      display: flex;
+      margin-block: 0.5rem;
+
+      .tech-card {
+        background-color: $cool-green;
+        color: #1b1b1b;
+        padding-inline: 0.4rem;
+        padding-block: 0.3rem;
+        border-radius: 3px;
+        margin-inline: 0.3rem;
+        margin-bottom: 0.5rem;
+
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+    .view {
+      margin-bottom: 1.5rem;
+    }
+  }
+}

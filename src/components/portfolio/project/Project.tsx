@@ -1,4 +1,5 @@
 import BorderWrapper from '../../BorderWrapper';
+import './project.css';
 
 interface ProjectProps {
   href: string;

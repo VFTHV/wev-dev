@@ -1,31 +1,3 @@
 .portfolio {
   margin-block: 4rem;
-}
-.portfolio .project-wrapper {
-  display: block;
-}
-.portfolio .project-wrapper img {
-  width: 100%;
-}
-.portfolio .project-wrapper .project-info {
-  margin: 1rem;
-}
-.portfolio .project-wrapper .project-info .tech-card-wrapper {
-  display: flex;
-  margin-block: 0.5rem;
-}
-.portfolio .project-wrapper .project-info .tech-card-wrapper .tech-card {
-  background-color: rgb(9, 232, 94);
-  color: #1b1b1b;
-  padding-inline: 0.4rem;
-  padding-block: 0.3rem;
-  border-radius: 3px;
-  margin-inline: 0.3rem;
-  margin-bottom: 0.5rem;
-}
-.portfolio .project-wrapper .project-info .tech-card-wrapper .tech-card:first-child {
-  margin-left: 0;
-}
-.portfolio .project-wrapper .project-info .view {
-  margin-bottom: 1.5rem;
 }/*# sourceMappingURL=portfolio.css.map */
