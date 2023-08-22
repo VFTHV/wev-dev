@@ -38,7 +38,8 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
     };
   }, [isMenuOpen]);
 
-  let navWidth = 300;
+  let navWidth = 2000; /* <-- intentionally large value so that
+  it doesn't appear on the screen at first render */
 
   if (navRef.current) {
     navWidth = navRef.current.getBoundingClientRect().width;
@@ -57,7 +58,7 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
       animate={{
         x: isMenuOpen ? -navWidth : 0,
       }}
-      initial={{ right: '-18rem' }}
+      style={{ right: -navWidth }}
       transition={{ ease: 'easeInOut' }}
       ref={navRef}
     >
