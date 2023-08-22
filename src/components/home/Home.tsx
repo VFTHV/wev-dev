@@ -20,7 +20,7 @@ function Home() {
             <AiOutlineArrowDown />
           </div>
         </div>
-        <h3 className="descr">Trusted by</h3>
+        <h3 className="descr btm-item">Trusted by</h3>
         <Carousel />
       </div>
       <ScrollFigures />

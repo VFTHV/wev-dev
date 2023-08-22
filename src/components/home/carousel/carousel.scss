@@ -1,6 +1,6 @@
 @import '../../../styles/variables.scss';
 .carousel {
-  margin-top: 1rem;
+  margin-top: 3rem;
   cursor: grab;
   width: 100%;
   overflow: hidden;
@@ -15,19 +15,24 @@
     svg {
       height: 100%;
     }
+  }
+}
+.item {
+  height: 3rem;
+  width: 7rem;
+  margin-inline: 1.5rem;
+  display: flex;
+  align-items: center;
 
-    .item {
-      height: 3rem;
-      width: 7rem;
-      margin: 5px;
-      display: flex;
-      align-items: center;
+  img {
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+  }
+}
 
-      img {
-        width: 100%;
-        object-fit: cover;
-        pointer-events: none;
-      }
-    }
+@media only screen and (min-width: 768px) {
+  .item {
+    margin-inline: 2.5rem;
   }
 }

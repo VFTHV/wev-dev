@@ -1,9 +1,7 @@
-import { ReactTech, TypeScripTech, NodeTech } from '../SVGs';
-import { SiRedux } from 'react-icons/si';
-import { SiExpress } from 'react-icons/si';
-import { BiLogoMongodb } from 'react-icons/bi';
+import { technologies } from '../../assets/technologies';
 import './techonoloiges.css';
 import RevealHeight from '../RevealHeight';
+import { nanoid } from 'nanoid';
 
 function Techonologies() {
   return (
@@ -19,24 +17,17 @@ function Techonologies() {
         </p>
       </div>
       <div className="techs">
-        <RevealHeight>
-          <ReactTech />
-        </RevealHeight>
-        <RevealHeight>
-          <TypeScripTech />
-        </RevealHeight>
-        <RevealHeight span="Redux">
-          <SiRedux />
-        </RevealHeight>
-        <RevealHeight>
-          <NodeTech />
-        </RevealHeight>
-        <RevealHeight span="ExpressJS">
-          <SiExpress />
-        </RevealHeight>
-        <RevealHeight span="MongoDB">
-          <BiLogoMongodb />
-        </RevealHeight>
+        {technologies.map((item) => {
+          const { icon: Icon, span, className } = item;
+          return (
+            <RevealHeight key={nanoid()}>
+              <>
+                <Icon />
+                {span && <span className={className}>{span}</span>}
+              </>
+            </RevealHeight>
+          );
+        })}
       </div>
     </section>
   );

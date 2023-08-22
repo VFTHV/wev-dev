@@ -3,10 +3,9 @@ import { motion, useTransform, useScroll } from 'framer-motion';
 
 interface RevealHeightProps {
   children: JSX.Element;
-  span?: string;
 }
 
-export default function RevealHeight({ children, span }: RevealHeightProps) {
+export default function RevealHeight({ children }: RevealHeightProps) {
   const targetRef = useRef<HTMLDivElement>(null);
 
   const { scrollYProgress } = useScroll({
@@ -32,7 +31,7 @@ export default function RevealHeight({ children, span }: RevealHeightProps) {
         position: 'relative',
       }}
     >
-      {children} <span style={{ fontSize: '1.3rem' }}>{span}</span>
+      {children}
       <motion.div
         style={{
           position: 'absolute',

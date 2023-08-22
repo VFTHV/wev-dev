@@ -1,5 +1,5 @@
 .carousel {
-  margin-top: 1rem;
+  margin-top: 3rem;
   cursor: grab;
   width: 100%;
   overflow: hidden;
@@ -15,16 +15,23 @@
 .carousel .inner-carousel svg {
   height: 100%;
 }
-.carousel .inner-carousel .item {
+
+.item {
   height: 3rem;
   width: 7rem;
-  margin: 5px;
+  margin-inline: 1.5rem;
   display: flex;
   align-items: center;
 }
-.carousel .inner-carousel .item img {
+.item img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   pointer-events: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .item {
+    margin-inline: 2.5rem;
+  }
 }/*# sourceMappingURL=carousel.css.map */

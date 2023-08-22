@@ -3,6 +3,7 @@
   margin-bottom: 5rem;
 }
 .home .home-wrapper {
+  min-height: 100vh;
   padding-top: 4rem;
   display: flex;
   flex-direction: column;
@@ -53,7 +54,16 @@
 }
 .home .home-wrapper .scroll-down .down svg {
   fill: rgb(9, 232, 94);
-  height: 40px;
-  width: 40px;
+  height: 100%;
+  width: 100%;
   animation: up-down 0.7s infinite alternate;
+}
+.home .home-wrapper .btm-item {
+  margin-top: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .home .home-wrapper .scroll-down .down {
+    height: 4rem;
+  }
 }/*# sourceMappingURL=home.css.map */

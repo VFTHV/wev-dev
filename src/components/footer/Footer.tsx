@@ -8,13 +8,13 @@ function Footer() {
     <footer className="footer container">
       <YnVDevLogo />
       <div className="icons-wrapper">
-        <a href="#" className="icon">
+        <a href="https://github.com/VFTHV" className="icon">
           <BsGithub />
         </a>
-        <a href="#" className="icon">
+        <a href="https://www.instagram.com/vadimfthv/" className="icon">
           <BsInstagram />
         </a>
-        <a href="#" className="icon">
+        <a href="https://www.linkedin.com/in/vadim-fthv/" className="icon">
           <BsLinkedin />
         </a>
         <hr />
