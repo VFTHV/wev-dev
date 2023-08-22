@@ -29,7 +29,7 @@
 
 @media only screen and (min-width: 768px) {
   .project-wrapper {
-    max-width: 21.5rem;
+    max-width: 20.6rem;
     height: 36rem;
   }
   .project-wrapper .proj-item {
@@ -43,7 +43,7 @@
     flex-direction: column;
     justify-content: start;
   }
-  .project-wrapper .proj-item .project-info .view {
+  .project-wrapper .proj-item .project-info .tech-card-wrapper {
     margin-top: auto;
   }
 }/*# sourceMappingURL=project.css.map */

@@ -1,3 +1,5 @@
+@import '../../../styles/variables.scss';
+
 .nav-head {
   position: fixed;
   z-index: 3;
@@ -7,7 +9,7 @@
   padding-top: 8rem;
   padding-inline: 1rem;
 
-  background-color: rgba(27, 27, 27, 0.95);
+  background-color: rgba($background, 0.93);
   .nav-items {
     display: flex;
     flex-direction: column;
@@ -17,7 +19,7 @@
       margin-block: 0.5rem;
 
       .nav-item {
-        color: #7a878d;
+        color: $gray;
         cursor: pointer;
         display: block;
         height: 100%;
@@ -28,9 +30,9 @@
         justify-content: center;
       }
       .cta {
-        background-color: #fefdfb;
+        background-color: $primary-color;
         border-radius: 3px;
-        color: black;
+        color: $background;
       }
     }
   }

@@ -12,7 +12,7 @@ interface SideMenuProps {
 }
 
 function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
-  const [_, setIsNavMounted] = useState(false);
+  const [_, setIsNavMounted] = useState<boolean>(false);
 
   const navRef = useRef<HTMLElement | null>(null);
 
@@ -64,12 +64,12 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
     >
       <ul className="nav-items">
         {sideMenu.map((item) => {
-          const { to, content } = item;
+          const { to, content, className } = item;
           return (
             <li key={nanoid()}>
               <Link
                 onClick={() => setIsMenuOpen(false)}
-                className="nav-item"
+                className={`nav-item ${className}`}
                 to={to}
                 offset={offset}
                 {...scrollProps}

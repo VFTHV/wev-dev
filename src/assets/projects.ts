@@ -21,7 +21,7 @@ export const projects: Projects[] = [
     h3: 'In Collaboration with UN: Social Vulnerability Score Tool',
     technologies: ['NextJS', 'React'],
     description:
-      'I am currently working cooperating with UN maintaining this online tool. This DSVI online tool offers an intuitive interface for dynamic visualization, providing SV scores, analysis modes, and data layers for social vulnerability. It stands out with planned options to customize colors, model parameters, and insightful dashboards',
+      'I am currently working cooperating with UN maintaining this online tool. This DSVI online tool offers an intuitive interface for dynamic visualization, providing SV scores, analysis modes, and data layers for social vulnerability.',
   },
 
   {

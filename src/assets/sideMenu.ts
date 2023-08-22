@@ -1,6 +1,7 @@
 interface SideMenu {
   to: string;
   content: string;
+  className?: string;
 }
 
 export const sideMenu: SideMenu[] = [
@@ -27,5 +28,6 @@ export const sideMenu: SideMenu[] = [
   {
     to: 'contact',
     content: 'Get in Touch',
+    className: 'cta',
   },
 ];

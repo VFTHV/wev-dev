@@ -17,3 +17,9 @@
   right: 1.5rem;
   z-index: 4;
 }
+
+@media only screen and (min-width: 991px) {
+  .hamburger {
+    display: none;
+  }
+}
