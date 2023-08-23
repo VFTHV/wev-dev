@@ -1,5 +1,6 @@
 .logo {
   font-family: "Inter", sans-serif;
+  cursor: pointer;
 }
 .logo .ynv {
   font-weight: 400;
