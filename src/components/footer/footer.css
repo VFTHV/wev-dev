@@ -9,6 +9,15 @@
 .footer .icons-wrapper .icon {
   margin-inline: 0.8rem;
 }
-.footer hr {
-  border: 1px solid #7a878d;
+
+@media only screen and (min-width: 991px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #7a878d;
+    margin-bottom: 2rem;
+  }
+  .footer .icons-wrapper {
+    margin: 0;
+  }
 }/*# sourceMappingURL=footer.css.map */

@@ -17,7 +17,6 @@ function Footer() {
         <a href="https://www.linkedin.com/in/vadim-fthv/" className="icon">
           <BsLinkedin />
         </a>
-        <hr />
       </div>
     </footer>
   );
