@@ -34,4 +34,10 @@
   .item {
     margin-inline: 4rem;
   }
+}
+@media only screen and (min-width: 991px) {
+  .item {
+    height: 4rem;
+    width: 8rem;
+  }
 }/*# sourceMappingURL=carousel.css.map */

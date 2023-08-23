@@ -62,7 +62,15 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .home .home-wrapper .scroll-down {
+    margin-bottom: 2rem;
+  }
   .home .home-wrapper .scroll-down .down {
     height: 4rem;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .home .home-wrapper .scroll-down {
+    margin-bottom: 6rem;
   }
 }/*# sourceMappingURL=home.css.map */
