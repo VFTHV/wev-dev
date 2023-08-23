@@ -19,7 +19,7 @@ function Testimonials() {
               <div className="testimonial">
                 <Icon />
                 <p className="text">{description}</p>
-                <div className="testimonial-img">
+                <div className="testimonial-img btm-item">
                   <img src={src} alt="testimonial person image" />
                 </div>
                 <div className="text">{name}</div>

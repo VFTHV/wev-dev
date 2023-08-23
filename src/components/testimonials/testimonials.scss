@@ -1,10 +1,12 @@
+@import '../../styles/variables.scss';
+
 .testimonials {
   margin-block: 4rem;
   .testimonial {
     padding: 2rem 1.5rem;
-    color: #fefdfb;
+    // color: $primary-color;
     svg {
-      fill: rgb(9, 232, 94);
+      fill: $cool-green;
       height: 2.5rem;
       width: 2.5rem;
     }
@@ -15,6 +17,23 @@
       img {
         border-radius: 50%;
         height: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .testimonials .card-wrapper {
+    flex-direction: row;
+    align-items: start;
+    .testimonial {
+      max-width: 17.2rem;
+      height: 44rem;
+      display: flex;
+      flex-direction: column;
+
+      .btm-item {
+        margin-top: auto;
       }
     }
   }

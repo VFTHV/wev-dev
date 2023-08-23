@@ -3,7 +3,6 @@
 }
 .testimonials .testimonial {
   padding: 2rem 1.5rem;
-  color: #fefdfb;
 }
 .testimonials .testimonial svg {
   fill: rgb(9, 232, 94);
@@ -17,4 +16,20 @@
 .testimonials .testimonial .testimonial-img img {
   border-radius: 50%;
   height: 100%;
+}
+
+@media only screen and (min-width: 991px) {
+  .testimonials .card-wrapper {
+    flex-direction: row;
+    align-items: start;
+  }
+  .testimonials .card-wrapper .testimonial {
+    max-width: 17.2rem;
+    height: 44rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonials .card-wrapper .testimonial .btm-item {
+    margin-top: auto;
+  }
 }/*# sourceMappingURL=testimonials.css.map */
