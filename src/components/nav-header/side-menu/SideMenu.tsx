@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-scroll';
 import { sideMenu } from '../../../assets/sideMenu';
 import { nanoid } from 'nanoid';
+import { scrollProps, scrollOffset } from '../../../assets/scrollProps';
 import './side-menu.css';
 
 interface SideMenuProps {
@@ -45,13 +46,6 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
     navWidth = navRef.current.getBoundingClientRect().width;
   }
 
-  const scrollProps = {
-    spy: true,
-    smooth: 'easeInOutQuint',
-    duration: 1600,
-  };
-  const offset = -4 * 16;
-
   return (
     <motion.nav
       className="nav-head"
@@ -71,7 +65,7 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
                 onClick={() => setIsMenuOpen(false)}
                 className={`nav-item ${className}`}
                 to={to}
-                offset={offset}
+                offset={scrollOffset.small}
                 {...scrollProps}
               >
                 {content}

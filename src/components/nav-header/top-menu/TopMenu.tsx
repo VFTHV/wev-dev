@@ -1,56 +1,24 @@
-import { useState } from 'react';
+import TopMenuItem from './TopMenuItem';
+import { sideMenu } from '../../../assets/sideMenu';
+import { Link } from 'react-scroll';
+import { scrollProps, scrollOffset } from '../../../assets/scrollProps';
 import './top-menu.css';
 
 function TopMenu() {
-  const [width, setWidth] = useState(2);
-
   return (
     <ul className="top-menu">
-      <li
-        onMouseEnter={() => setWidth(50)}
-        onMouseLeave={() => setWidth(0)}
-        className="nav-wrapper descr"
-      >
-        Tech Stack
-        <div style={{ width: `${width}%` }} className="border-left"></div>
-        <div style={{ width: `${width}%` }} className="border-right"></div>
-      </li>
-      <li
-        onMouseEnter={() => setWidth(50)}
-        onMouseLeave={() => setWidth(0)}
-        className="nav-wrapper descr"
-      >
-        Tech Stack
-        <div style={{ width: `${width}%` }} className="border-left"></div>
-        <div style={{ width: `${width}%` }} className="border-right"></div>
-      </li>
-      <li
-        onMouseEnter={() => setWidth(50)}
-        onMouseLeave={() => setWidth(0)}
-        className="nav-wrapper descr"
-      >
-        Tech Stack
-        <div style={{ width: `${width}%` }} className="border-left"></div>
-        <div style={{ width: `${width}%` }} className="border-right"></div>
-      </li>
-      <li
-        onMouseEnter={() => setWidth(50)}
-        onMouseLeave={() => setWidth(0)}
-        className="nav-wrapper descr"
-      >
-        Tech Stack
-        <div style={{ width: `${width}%` }} className="border-left"></div>
-        <div style={{ width: `${width}%` }} className="border-right"></div>
-      </li>
-      <li
-        onMouseEnter={() => setWidth(50)}
-        onMouseLeave={() => setWidth(0)}
-        className="nav-wrapper descr"
-      >
-        Tech Stack
-        <div style={{ width: `${width}%` }} className="border-left"></div>
-        <div style={{ width: `${width}%` }} className="border-right"></div>
-      </li>
+      {sideMenu.map((item, i, arr) => {
+        const isLastItem = i === arr.length - 1;
+
+        const { to, content, className } = item;
+        return (
+          <Link to={to} {...scrollProps} offset={scrollOffset.large}>
+            <TopMenuItem className={className} isLastItem={isLastItem}>
+              {content}
+            </TopMenuItem>
+          </Link>
+        );
+      })}
     </ul>
   );
 }

@@ -8,34 +8,5 @@
   .top-menu {
     display: flex;
     height: 100%;
-    .nav-wrapper {
-      cursor: pointer;
-      height: 100%;
-      margin-inline: 1rem;
-      display: flex;
-      align-items: center;
-      position: relative;
-      &:last-child {
-        margin-right: 0;
-      }
-
-      .border-left,
-      .border-right {
-        position: absolute;
-        bottom: 0;
-        border: 1x solid $cool-green;
-        width: 0%;
-        box-shadow: 0 0 2px 2px $cool-green;
-        transition: width 0.3s ease-in-out 0s;
-      }
-
-      .border-left {
-        right: 50%;
-      }
-
-      .border-right {
-        left: 50%;
-      }
-    }
   }
 }
