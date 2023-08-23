@@ -46,4 +46,10 @@
   .project-wrapper .proj-item .project-info .tech-card-wrapper {
     margin-top: auto;
   }
+}
+@media only screen and (min-width: 991px) {
+  .project-wrapper {
+    max-width: 17.2rem;
+    height: 40rem;
+  }
 }/*# sourceMappingURL=project.css.map */
