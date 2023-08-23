@@ -30,4 +30,7 @@
   .form .input-data:first-child {
     margin-top: 0;
   }
+  .form .cta-btn {
+    font-size: 1.125rem;
+  }
 }/*# sourceMappingURL=form.css.map */

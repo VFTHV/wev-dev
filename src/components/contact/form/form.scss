@@ -32,7 +32,12 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .form .input-data:first-child {
-    margin-top: 0;
+  .form {
+    .input-data:first-child {
+      margin-top: 0;
+    }
+    .cta-btn {
+      font-size: 1.125rem;
+    }
   }
 }

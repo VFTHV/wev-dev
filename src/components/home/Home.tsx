@@ -15,7 +15,7 @@ function Home() {
           React+Redux
         </h1>
         <div className="scroll-down">
-          <p>Scroll Down</p>
+          <p className="descr">Scroll Down</p>
           <div className="down">
             <AiOutlineArrowDown />
           </div>

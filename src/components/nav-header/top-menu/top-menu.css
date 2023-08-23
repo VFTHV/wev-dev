@@ -1,0 +1,36 @@
+.top-menu {
+  display: none;
+}
+
+@media only screen and (min-width: 991px) {
+  .top-menu {
+    display: flex;
+    height: 100%;
+  }
+  .top-menu .nav-wrapper {
+    cursor: pointer;
+    height: 100%;
+    margin-inline: 1rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .top-menu .nav-wrapper:last-child {
+    margin-right: 0;
+  }
+  .top-menu .nav-wrapper .border-left,
+  .top-menu .nav-wrapper .border-right {
+    position: absolute;
+    bottom: 0;
+    border: 1x solid rgb(9, 232, 94);
+    width: 0%;
+    box-shadow: 0 0 2px 2px rgb(9, 232, 94);
+    transition: width 0.3s ease-in-out 0s;
+  }
+  .top-menu .nav-wrapper .border-left {
+    right: 50%;
+  }
+  .top-menu .nav-wrapper .border-right {
+    left: 50%;
+  }
+}/*# sourceMappingURL=top-menu.css.map */

@@ -13,7 +13,7 @@ export const projects: Projects[] = [
     h3: 'Beauty Salon Website',
     technologies: ['React', 'Typescript', 'SCSS'],
     description:
-      'This project was built for beauty salon in Sugar Land, Tx, USA. Page is responsive for several screen sizes. For animations I used framer-motion and react-smooth-scroll libraries.',
+      'This project was built for beauty salon. Page is responsive for several screen sizes. For animations I used framer-motion and react-smooth-scroll libraries.',
   },
   {
     href: 'https://sdg-ai-lab.github.io/DSVI_Tool_v3/#!',
@@ -21,7 +21,7 @@ export const projects: Projects[] = [
     h3: 'In Collaboration with UN: Social Vulnerability Score Tool',
     technologies: ['NextJS', 'React'],
     description:
-      'I am currently working cooperating with UN maintaining this online tool. This DSVI online tool offers an intuitive interface for dynamic visualization, providing SV scores, analysis modes, and data layers for social vulnerability.',
+      'Online social vulnerability tool in cooperation with the UN. It offers an intuitive interface for dynamic visualization, providing SV scores, analysis modes, and data layers for social vulnerability.',
   },
 
   {
@@ -30,7 +30,7 @@ export const projects: Projects[] = [
     h3: 'Calculation Tool for Oilfield Engineers',
     technologies: ['React', 'Redux', 'TypeScript'],
     description:
-      'This project is a comprehensive web application designed for engineers in the oil and gas industry. It provides a suite of tools and calculations, offering assistance in various aspects of oilfield operations, equipment sizing, and data analysis',
+      'Comprehensive web application designed for engineers in the oil and gas industry. It provides a suite of tools and calculations  in various aspects of oilfield operations',
   },
   {
     href: 'https://rest-countries-react-redux.netlify.app/',
@@ -38,15 +38,15 @@ export const projects: Projects[] = [
     h3: 'REST API Countries App',
     technologies: ['React', 'Redux', 'Axios'],
     description:
-      'This project required me to build a responsive RESTful app that pulled data from a 3rd party server. It also had to have a color theme switcher. Built with React/Redux/React-router-dom. Styles with SCSS. Axios API library was used for making GET requests',
+      'This is a responsive RESTful app that pulled data from a 3rd party server. It also had to have a color theme switcher. Built with React/Redux/React-router-dom. Styles with SCSS. Axios API library was used for making GET requests',
   },
   {
     href: 'https://react-redux-ip-trckr.netlify.app/',
     imgSrc: 'proj-ip.png',
     h3: 'IP Address Tracker App',
-    technologies: ['React', 'Redux', 'Axios', 'Multiple APIs'],
+    technologies: ['React', 'Redux', 'Axios'],
     description:
-      'Responsive IP Address and Domain tracker app. This app makes RESTful GET requests to 2 API servers: ipify.org and leafletjs.com. I did 2 variations of this project. On the first one I used vanilla HTML, SCSS and JavaScript. On the second one I used React, Redux, Axios',
+      "Responsive IP Address and Domain tracker app. This app makes RESTful GET requests to 2 API servers: ipify.org and leafletjs.com. I practiced using 2 API's at the same time",
   },
   {
     href: 'https://ent-web-app-react-redux.netlify.app/',
@@ -62,6 +62,6 @@ export const projects: Projects[] = [
     h3: 'Cards Game "Clubs Fool',
     technologies: ['HTML', 'Vanilla JS', 'Bootstrap'],
     description:
-      'Russian-Ukrainian card game. Designed in raw JavaScript code (no libraries). It manipulates DOM and relies on both event handling and the use of objects',
+      'Designed in raw JavaScript code (no libraries): project relies on DOM manipulation and event handling',
   },
 ];

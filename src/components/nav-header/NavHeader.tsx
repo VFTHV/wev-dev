@@ -4,6 +4,7 @@ import { YnVDevLogo } from '../YnVDevLogo';
 import { Squash as Hamburger } from 'hamburger-react';
 import './nav-header.css';
 import SideMenu from './side-menu/SideMenu';
+import TopMenu from './top-menu/TopMenu';
 
 function NavHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,6 +18,7 @@ function NavHeader() {
     <>
       <header className="header container">
         <YnVDevLogo />
+        <TopMenu />
       </header>
       <div className="hamburger" ref={menuRef}>
         <Hamburger
