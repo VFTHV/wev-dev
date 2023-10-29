@@ -1,12 +1,20 @@
 import { motion, useTransform, useScroll } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
-import { AHWSicon, BHicon, KLXicon, GinnovoIcon, TGTicon } from '../../SVGs';
+import {
+  AHWSicon,
+  BHicon,
+  KLXicon,
+  GinnovoIcon,
+  TGTicon,
+  UNDPicon,
+} from '../../SVGs';
 import './carousel.css';
 
 function Carousel() {
   const icons = [
     <AHWSicon />,
     <BHicon />,
+    <UNDPicon />,
     <KLXicon />,
     <GinnovoIcon />,
     <TGTicon />,
