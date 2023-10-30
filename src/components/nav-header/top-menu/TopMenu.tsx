@@ -12,7 +12,12 @@ function TopMenu() {
 
         const { to, content, className } = item;
         return (
-          <Link to={to} {...scrollProps} offset={scrollOffset.large}>
+          <Link
+            to={to}
+            {...scrollProps}
+            offset={scrollOffset.large}
+            aria-label={`link to ${to}`}
+          >
             <TopMenuItem className={className} isLastItem={isLastItem}>
               {content}
             </TopMenuItem>
