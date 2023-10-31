@@ -5,7 +5,11 @@ import { nanoid } from 'nanoid';
 
 function Techonologies() {
   return (
-    <section id="technologies" className="technologies container">
+    <section
+      id="technologies"
+      className="technologies container"
+      aria-label="technologies we work with section"
+    >
       <div className="tech-wrapper">
         <h2 className="h2">Technologies I work with</h2>
         <p className="descr">
