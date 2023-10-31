@@ -7,7 +7,7 @@ function Footer() {
   return (
     <footer className="footer container">
       <YnVDevLogo />
-      <div className="icons-wrapper">
+      <div className="icons-wrapper" aria-label="our social networks links">
         <a href="https://github.com/VFTHV" className="icon">
           <BsGithub />
         </a>
