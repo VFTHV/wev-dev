@@ -36,7 +36,11 @@ function ScrollFigures() {
   const neuronY = useTransform(scrollYProgress, [0, 1], [-55, 25]);
 
   return (
-    <motion.div ref={targetRef} className="figures">
+    <motion.div
+      ref={targetRef}
+      className="figures"
+      aria-label="technologies we work with"
+    >
       <motion.div ref={cubeRef} style={{ y, color: color }} className="icon">
         <TbBrandTypescript />
       </motion.div>

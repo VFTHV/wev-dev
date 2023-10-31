@@ -5,7 +5,11 @@ import ScrollFigures from './scroll-figures/ScrollFigures';
 
 function Home() {
   return (
-    <section id="home" className="home container">
+    <section
+      id="home"
+      className="home container"
+      aria-label="home section about developer"
+    >
       <div className="home-wrapper">
         <div className="hero-img">
           <img src="avatar.jpeg" alt="web developer image" />

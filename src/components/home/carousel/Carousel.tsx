@@ -38,7 +38,11 @@ function Carousel() {
   const x = useTransform(scrollYProgress, [0.1, 0.9], [0, width]);
 
   return (
-    <motion.div ref={carousel} className="carousel">
+    <motion.div
+      ref={carousel}
+      className="carousel"
+      aria-label="logos of our partners"
+    >
       <motion.div
         drag="x"
         dragConstraints={{ right: 0, left: width }}
