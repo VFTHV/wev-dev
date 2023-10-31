@@ -5,7 +5,11 @@ import './testimonials.css';
 
 function Testimonials() {
   return (
-    <section id="testimonials" className="testimonials container">
+    <section
+      id="testimonials"
+      className="testimonials container"
+      aria-label="testimonials section"
+    >
       <h2 className="h2">Customer / Partners Testimonials</h2>
       <p className="descr">
         Here is what my colleagues and clients are telling about the service.
@@ -16,7 +20,10 @@ function Testimonials() {
           const { icon: Icon, description, src, name, title } = item;
           return (
             <BorderWrapper key={nanoid()}>
-              <div className="testimonial">
+              <div
+                className="testimonial"
+                aria-label={`testimonial from ${name}`}
+              >
                 <Icon />
                 <p className="text">{description}</p>
                 <div className="testimonial-img btm-item">
