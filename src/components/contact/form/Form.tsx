@@ -16,8 +16,13 @@ function Form() {
 
   return (
     <>
-      <form onSubmit={handleSubmit} action="submit" className="form">
-        <div className="input-data">
+      <form
+        onSubmit={handleSubmit}
+        action="submit"
+        className="form"
+        aria-label="contact form"
+      >
+        <div className="input-data" aria-label="input name">
           <label htmlFor="name" className="text">
             Name
           </label>
@@ -32,7 +37,7 @@ function Form() {
             />
           </BorderWrapper>
         </div>
-        <div className="input-data">
+        <div className="input-data" aria-label="input email">
           <label htmlFor="email" className="text">
             Email
           </label>
@@ -51,7 +56,7 @@ function Form() {
             errors={state.errors}
           />
         </div>
-        <div className="input-data">
+        <div className="input-data" aria-label="input message">
           <label htmlFor="message" className="text">
             Message
           </label>

@@ -5,14 +5,18 @@ import './contact.css';
 
 function Contact() {
   return (
-    <section id="contact" className="contact container">
+    <section
+      id="contact"
+      className="contact container"
+      aria-label="contact details section"
+    >
       <div>
         <h2 className="h2">Get in Touch</h2>
         <p className="descr">
           Drop me a line, give me a call, or send me a message by submitting the
           form.
         </p>
-        <div className="contact-detail">
+        <div className="contact-detail" aria-label="email details">
           <div className="contact-icon">
             <AiOutlineMail />
           </div>
@@ -20,7 +24,7 @@ function Contact() {
             vadfthv@gmail.com
           </a>
         </div>
-        <div className="contact-detail">
+        <div className="contact-detail" aria-label="phone number details">
           <div className="contact-icon">
             <BsTelephone />
           </div>
