@@ -55,6 +55,7 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
       style={{ right: -navWidth }}
       transition={{ ease: 'easeInOut' }}
       ref={navRef}
+      aria-label="navigation side menu"
     >
       <ul className="nav-items">
         {sideMenu.map((item) => {
@@ -67,6 +68,7 @@ function SideMenu({ isMenuOpen, setIsMenuOpen, burgerMenuRef }: SideMenuProps) {
                 to={to}
                 offset={scrollOffset.small}
                 {...scrollProps}
+                aria-label={`link to ${to}`}
               >
                 {content}
               </Link>
