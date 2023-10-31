@@ -13,7 +13,11 @@ function Project({ href, imgSrc, h3, children, technologies }: ProjectProps) {
   return (
     <BorderWrapper>
       <>
-        <a href={href} className="project-wrapper">
+        <a
+          href={href}
+          className="project-wrapper"
+          aria-label={`portfolio item ${h3}`}
+        >
           <div className="proj-item">
             <img src={imgSrc} alt="Portfolio project image" />
             <div className="project-info">

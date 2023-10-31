@@ -4,7 +4,11 @@ import { projects } from '../../assets/projects';
 
 function Portfolio() {
   return (
-    <section id="portfolio" className="portfolio container">
+    <section
+      id="portfolio"
+      className="portfolio container"
+      aria-label="our portfolio section"
+    >
       <h2 className="h2">Some of my Projects</h2>
       <p className="descr">
         You are welcome to browse through a selection of my projects, reflecting
