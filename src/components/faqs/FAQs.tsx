@@ -5,7 +5,10 @@ import { nanoid } from 'nanoid';
 
 function FAQs() {
   return (
-    <section className="faqs container">
+    <section
+      className="faqs container"
+      aria-label="frequently asked questions section"
+    >
       <h2 className="h2">FAQs</h2>
       <p className="descr">
         Got Questions? Here are Answers to Common Inquiries About My Web
