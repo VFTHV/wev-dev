@@ -26,5 +26,3 @@ export default App;
 
 // COMMENT #1 HERE
 // COMMENT #2 HERE
-// COMMENT #3 HERE
-// COMMENT #4 HERE
