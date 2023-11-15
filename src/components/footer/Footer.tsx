@@ -3,12 +3,6 @@ import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 
 import './footer.css';
 
-// new footer element to be here
-// new footer element to be here
-// new footer element to be here
-// new footer element to be here
-// new footer element to be here
-
 function Footer() {
   return (
     <footer className="footer container">
