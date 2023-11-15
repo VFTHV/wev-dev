@@ -6,6 +6,8 @@ import './footer.css';
 // new footer element to be here
 // new footer element to be here
 // new footer element to be here
+// new footer element to be here
+// new footer element to be here
 
 function Footer() {
   return (
