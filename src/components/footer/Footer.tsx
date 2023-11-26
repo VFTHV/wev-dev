@@ -6,6 +6,7 @@ import './footer.css';
 // EXTRA CONTENT FOR FOOTER
 // EXTRA CONTENT FOR FOOTER
 // EXTRA CONTENT FOR FOOTER
+// EXTRA CONTENT FOR FOOTER
 
 function Footer() {
   return (
