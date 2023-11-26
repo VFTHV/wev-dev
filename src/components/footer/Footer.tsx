@@ -3,11 +3,6 @@ import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 
 import './footer.css';
 
-// EXTRA CONTENT FOR FOOTER
-// EXTRA CONTENT FOR FOOTER
-// EXTRA CONTENT FOR FOOTER
-// EXTRA CONTENT FOR FOOTER
-
 function Footer() {
   return (
     <footer className="footer container">
