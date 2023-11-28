@@ -5,6 +5,7 @@ import './footer.css';
 
 // new carousel here
 // new carousel here
+// new carousel here
 
 function Footer() {
   return (
