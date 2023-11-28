@@ -3,12 +3,6 @@ import { BsGithub, BsInstagram, BsLinkedin } from 'react-icons/bs';
 
 import './footer.css';
 
-// new carousel here
-// new carousel here
-// new carousel here
-// new carousel here
-// new carousel here
-
 function Footer() {
   return (
     <footer className="footer container">
