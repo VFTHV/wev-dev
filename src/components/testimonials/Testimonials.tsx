@@ -3,6 +3,9 @@ import { testimonials } from '../../assets/testimonials';
 import { nanoid } from 'nanoid';
 import './testimonials.css';
 
+// new testimonial
+// new testimonial
+
 function Testimonials() {
   return (
     <section
