@@ -2,11 +2,6 @@ import './portfolio.css';
 import Project from './project/Project';
 import { projects } from '../../assets/projects';
 
-// new portfolio item
-// new portfolio item
-// new portfolio item
-// new portfolio item
-
 function Portfolio() {
   return (
     <section
