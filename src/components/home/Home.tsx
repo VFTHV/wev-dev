@@ -15,8 +15,8 @@ function Home() {
           <img src="avatar.jpeg" alt="web developer image" />
         </div>
         <h1 className="h1">
-          I'm a web developer based in Sugar Land, Tx, specializing in
-          React+Redux
+          I'm a web developer based in Sugar Land, Tx, specializing in MERN
+          stack
         </h1>
         <div className="scroll-down">
           <p className="descr">Scroll Down</p>
