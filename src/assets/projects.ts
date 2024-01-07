@@ -8,7 +8,7 @@ interface Projects {
 
 export const projects: Projects[] = [
   {
-    href: 'https://ynv-beauty.com/',
+    href: 'https://ynv-beauty.netlify.app/',
     imgSrc: 'proj-ynv.png',
     h3: 'Beauty Salon Website',
     technologies: ['React', 'Typescript', 'SCSS'],
