@@ -23,7 +23,14 @@ export const projects: Projects[] = [
     description:
       'Online social vulnerability tool in cooperation with the UN. It offers an intuitive interface for dynamic visualization, providing SV scores, analysis modes, and data layers for social vulnerability.',
   },
-
+  {
+    href: 'https://github.com/VFTHV/SDG-AI-Lab-DSVI_Tool_v3-server',
+    imgSrc: 'proj-dsvi-server.png',
+    h3: 'Server for United Nations SDG Tool',
+    technologies: ['NodeJS', 'Express', 'MongoDB'],
+    description:
+      'This project targets new functionality such as account creation, forgot password, reset password, assignment of different rights to users.',
+  },
   {
     href: 'https://wireline-calcs.netlify.app/',
     imgSrc: 'proj-calcs.png',
@@ -55,13 +62,5 @@ export const projects: Projects[] = [
     technologies: ['React', 'Redux', 'Bootstrap'],
     description:
       'In this project I had to build mobile and desktop designs so that it was fully-responsive. I took a mobile-first approach and used Bootstrap CSS library for layout purposes.',
-  },
-  {
-    href: 'https://vfthv.github.io/Clubs-Fool/',
-    imgSrc: 'proj-cards.png',
-    h3: 'Cards Game "Clubs Fool',
-    technologies: ['HTML', 'Vanilla JS', 'Bootstrap'],
-    description:
-      'Designed in raw JavaScript code (no libraries): project relies on DOM manipulation and event handling',
   },
 ];
