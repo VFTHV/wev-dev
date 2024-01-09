@@ -7,6 +7,7 @@ function Portfolio() {
   // portfolio item
   // portfolio item
   // portfolio item
+  // portfolio item
   return (
     <section
       id="portfolio"
