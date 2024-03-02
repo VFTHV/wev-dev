@@ -3,6 +3,7 @@ import './home.css';
 import Carousel from './carousel/Carousel';
 import ScrollFigures from './scroll-figures/ScrollFigures';
 // new avatar photo
+// new avatar photo
 function Home() {
   return (
     <section
