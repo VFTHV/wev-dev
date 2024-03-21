@@ -6,13 +6,6 @@ interface BorderWrapperProps {
   transformEnd?: number;
 }
 
-// improve border wrapper
-// improve border wrapper
-// improve border wrapper
-// improve border wrapper
-// improve border wrapper
-// improve border wrapper
-
 function BorderWrapper({ children, transformEnd }: BorderWrapperProps) {
   const horizBorderRef = useRef<HTMLDivElement>(null);
   const vertBorderRef = useRef<HTMLDivElement>(null);
