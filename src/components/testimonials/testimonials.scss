@@ -31,6 +31,15 @@
       height: 44rem;
       display: flex;
       flex-direction: column;
+      // & > * {
+      //   // flex: 1;
+      //   border: 1px solid red;
+      //   overflow: hidden;
+      // }
+      .text {
+        max-height: 50%;
+        overflow: hidden;
+      }
 
       .btm-item {
         margin-top: auto;

@@ -29,6 +29,10 @@
     display: flex;
     flex-direction: column;
   }
+  .testimonials .card-wrapper .testimonial .text {
+    max-height: 50%;
+    overflow: hidden;
+  }
   .testimonials .card-wrapper .testimonial .btm-item {
     margin-top: auto;
   }
